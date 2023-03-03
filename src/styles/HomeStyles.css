@@ -1,0 +1,25 @@
+.banner{
+    background: black;
+    height: 60vh;
+}
+.home{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+.foodRange{
+     text-align: 'center';
+     display: 'flex';
+     flex-direction: row;
+}
+@media only screen and(max-width: 600px){
+    .banner ,.home{
+        justify-content: center;
+        align-items: center;
+    }
+    .foodRange{
+        text-align: 'center';
+         display: 'flex';
+         flex-direction: column;
+    }
+}
