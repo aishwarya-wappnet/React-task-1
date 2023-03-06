@@ -28,5 +28,6 @@ export const pages = [
         id: 6,
         name: 'sign up',
         link: '/signup'
-    }
+    },
+    
 ]

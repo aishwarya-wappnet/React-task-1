@@ -1,0 +1,14 @@
+.cardHeader{
+    display: flex;
+    padding: 10px;
+}
+
+.cardFooter{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    display: flex;
+    margin-top: 120px;
+    height: '10px';
+    width: '250px';
+    justify-content: space-between;
+}

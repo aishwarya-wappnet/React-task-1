@@ -1,16 +1,33 @@
 .banner{
     background: black;
-    height: 60vh;
+    height: 61vh;
+    z-index: 1;
 }
-.home{
-    height: 60vh;
+.banner .home{
+    height: 61vh;
     display: flex;
     justify-content: center;
+    z-index: -1;
+    opacity: 0.4;
 }
 .foodRange{
      text-align: 'center';
      display: 'flex';
      flex-direction: row;
+}
+.inactive{
+    border: 1px solid black;
+}
+
+.active{
+    border: 3px solid red;
+    color: red;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -250px;
 }
 @media only screen and(max-width: 600px){
     .banner ,.home{
@@ -23,3 +40,4 @@
          flex-direction: column;
     }
 }
+
