@@ -4,7 +4,6 @@ import { pages } from '../../data/pages'
 import '../../styles/NavStyles.css'
 import { Link } from 'react-router-dom';
 
-
 const Nav = ({classname}) => {
   return (
     <>

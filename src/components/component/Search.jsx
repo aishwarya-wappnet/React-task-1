@@ -26,11 +26,11 @@ const names = [
 const search = () => {
   return (
     <div className="search">
-        <FormControl sx={{width: 250}}>
-        <InputLabel id="demo-multiple-name-label">Select City</InputLabel>
+        <FormControl sx={{width: {xs: "100px", sm: "250px"}}}>
+        <InputLabel >Select City</InputLabel>
         {/* <LocationOnIcon/> */}
         <Select
-         sx={{bgcolor: 'white', borderRadius: 3}}
+         sx={{bgcolor: 'white', height: '50px', borderRadius: 3}}
           labelId="demo-multiple-name-label"
           id="demo-multiple-name"
           input={<OutlinedInput label="Name" />}
@@ -46,8 +46,8 @@ const search = () => {
         </Select>
       </FormControl>
 
-        <FormControl sx={{width: 300}}>
-        <TextField sx={{bgcolor: 'white', borderRadius: 3}} id="outlined-search" label="Search field" type="search" />
+        <FormControl sx={{width: {xs: "100px", sm: "250px"}}}>
+        <TextField sx={{border: 'none', outline: 'none',bgcolor: 'white', height: '50px', borderRadius: 3}} placeholder="Search" type="search" />
       </FormControl>
     </div>
   )
